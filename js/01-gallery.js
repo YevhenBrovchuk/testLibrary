@@ -33,7 +33,7 @@ function handlerPhotoClick(evt) {
     return;
   }
   // console.log(typeof evt.target);
-  openCloseModal(createBigPhotoMarkup(evt.target));
+  //openCloseModal(createBigPhotoMarkup(evt.target));
 }
 
 function createBigPhotoMarkup(obj = {}) {
