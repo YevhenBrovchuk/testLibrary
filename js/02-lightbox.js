@@ -20,3 +20,5 @@ function createMarcupFoto(arr) {
 
 listEl.insertAdjacentHTML("beforeend", createMarcupFoto(galleryItems));
 new SimpleLightbox(".gallery a", { captionsData: `alt`, captionDelay: 250 });
+
+let link = document.querySelector(".gallery__link");
